@@ -126,7 +126,7 @@ app.post('/chat', async (req: Request, res: Response): Promise<any> => {
 
       // Create or get Stream Chat channel
       const channel = chatClient.channel("messaging", `chat-${userId}`, {
-        name: "AI Chat",
+        // name: "AI Chat",
         created_by_id: "ai_bot",
       });
 
