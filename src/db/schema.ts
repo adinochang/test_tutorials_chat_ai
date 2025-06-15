@@ -25,6 +25,6 @@ export type UserSelect = typeof users.$inferSelect;
 
 /*
 In terminal, run :
-- npx drizzle-kit generate
-- npx drizzle-kit migrate
+- npx drizzle-kit generate to create a migration sql file
+- npx drizzle-kit migrate to execute the sql
 */
